@@ -1,41 +1,41 @@
 @font-face {
     font-family: "nmr";
-    src: url("neue-montreal-free-demo-pangram-pangram-030418/NeueMontreal-Regular.otf");
+    src: url("NeueMontreal-Regular.otf");
 }
 
 @font-face {
     font-family: "nml";
-    src: url("neue-montreal-free-demo-pangram-pangram-030418/NeueMontreal-Light.otf");
+    src: url("NeueMontreal-Light.otf");
 }
 
 @font-face {
     font-family: "nmm";
-    src: url("neue-montreal-free-demo-pangram-pangram-030418/NeueMontreal-Medium.otf");
+    src: url("NeueMontreal-Medium.otf");
 }
 
 @font-face {
     font-family: "nmb";
-    src: url("neue-montreal-free-demo-pangram-pangram-030418/NeueMontreal-Bold.otf");
+    src: url("NeueMontreal-Bold.otf");
 }
 
 @font-face {
     font-family: "nmbi";
-    src: url("neue-montreal-free-demo-pangram-pangram-030418/NeueMontreal-BoldItalic.otf");
+    src: url("NeueMontreal-BoldItalic.otf");
 }
 
 @font-face {
     font-family: "nmri";
-    src: url("neue-montreal-free-demo-pangram-pangram-030418/NeueMontreal-Italic.otf");
+    src: url("NeueMontreal-Italic.otf");
 }
 
 @font-face {
     font-family: "nmmi";
-    src: url("neue-montreal-free-demo-pangram-pangram-030418/NeueMontreal-MediumItalic.otf");
+    src: url("NeueMontreal-MediumItalic.otf");
 }
 
 @font-face {
     font-family: "nmli";
-    src: url("neue-montreal-free-demo-pangram-pangram-030418/NeueMontreal-LightItalic.otf");
+    src: url("NeueMontreal-LightItalic.otf");
 }
 
 
