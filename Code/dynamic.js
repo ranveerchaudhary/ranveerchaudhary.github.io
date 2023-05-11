@@ -112,7 +112,7 @@ $("#larrow").click(function(){
             document.getElementById("projecttitle").innerHTML = "atom";
             document.getElementById("projecttitle").style.fontFamily = "monospace";
             document.getElementById("proimg").style.visibility = "visible";
-            document.getElementById("proimg").src = "atomlogo.svg";
+            document.getElementById("proimg").src = "Code/atomlogo.svg";
             document.getElementById("proimg").style.filter = "brightness(0%) invert(100%)";
             document.getElementById("projectdisc").innerHTML = "Atom the weather app, is a weather app made using html, css & javascript. Atom boasts a responsive and modern UI whilst also having a feature to calculate the weather for the next day. The app uses the open-weather api to fetch weather details.";
         }
@@ -121,7 +121,7 @@ $("#larrow").click(function(){
             document.getElementById("projecttitle").innerHTML = "Mercurial";
             document.getElementById("projecttitle").style.fontFamily = "mrsd";
             document.getElementById("proimg").style.visibility = "visible";
-            document.getElementById("proimg").src = "mercuriallogo.png";
+            document.getElementById("proimg").src = "Code/mercuriallogo.png";
             document.getElementById("projectdisc").innerHTML = "Mercurial is an intelligent music recommendation app that uses cutting-edge machine learning algorithms to suggest incredible tracks to the user, based on their vibe. <a href = 'https://github.com/ranveerchaudhary/Mercurial' target = '_blank'>Github ↗</a>";
         }
     }, 500);
@@ -159,7 +159,7 @@ $("#rarrow").click(function(){
             document.getElementById("projecttitle").innerHTML = "atom";
             document.getElementById("projecttitle").style.fontFamily = "monospace";
             document.getElementById("proimg").style.visibility = "visible";
-            document.getElementById("proimg").src = "atomlogo.svg";
+            document.getElementById("proimg").src = "Code/atomlogo.svg";
             document.getElementById("proimg").style.filter = "brightness(0%) invert(100%)";
             document.getElementById("projectdisc").innerHTML = "Atom the weather app, is a weather app made using HTML, CSS & Javascript. Atom boasts a responsive and modern UI whilst also having a feature to calculate the weather for the next day. The app uses the open-weather api to fetch weather details.";
         }
@@ -168,7 +168,7 @@ $("#rarrow").click(function(){
             document.getElementById("projecttitle").innerHTML = "Mercurial";
             document.getElementById("projecttitle").style.fontFamily = "mrsd";
             document.getElementById("proimg").style.visibility = "visible";
-            document.getElementById("proimg").src = "mercuriallogo.png";
+            document.getElementById("proimg").src = "Code/mercuriallogo.png";
             document.getElementById("projectdisc").innerHTML = "Mercurial is an intelligent music recommendation app that uses cutting-edge machine learning algorithms to suggest incredible tracks to the user.  based on their vibe. <a href = 'https://github.com/ranveerchaudhary/Mercurial' target = '_blank'>Github ↗</a>";
         }
     }, 500);
