@@ -177,9 +177,11 @@
     }
 
     .blp{
-        font-size: 2dvh;
+        font-size: 3.5dvh;
         color: white;
         margin-left: 2dvw;
+        margin-top: -1dvh;
+        margin-bottom: -1dvh;
     }
 
     #home{
@@ -516,9 +518,11 @@
     }
 
     .blp{
-        font-size: 2dvh;
+        font-size: 3.5dvh;
         color: white;
         margin-left: 4dvw;
+        margin-top: -1dvh;
+        margin-bottom: -1dvh;
     }
 
     #home{
@@ -848,9 +852,11 @@
     }
 
     .blp{
-        font-size: 2dvh;
+        font-size: 3.5dvh;
         color: white;
         margin-left: 4dvw;
+        margin-top: -1dvh;
+        margin-bottom: -1dvh;
     }
 
     #home{
