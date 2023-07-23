@@ -456,7 +456,7 @@
     #noisefilter1{
         height: 100dvh !important;
         width: 100dvw !important;
-        opacity: 0.55;
+        opacity: 0.5;
         filter: contrast(90%);
         position: absolute;
         top: 0dvh;
@@ -794,7 +794,7 @@
     #noisefilter1{
         height: 100dvh !important;
         width: 100dvw !important;
-        opacity: 0.55;
+        opacity: 0.5;
         filter: contrast(90%);
         position: absolute;
         top: 0dvh;
