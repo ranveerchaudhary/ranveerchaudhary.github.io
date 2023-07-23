@@ -275,9 +275,8 @@ $("#themetype").click(function(){
         if(document.getElementById("themetype").innerHTML == "Light "){
 
             document.getElementById("themetype").innerHTML = "Dark ";
-            var opac = $(".grain").css("opacity");
             anime({
-                targets: ["#vidbg", ".grain"],
+                targets: "#vidbg",
                 opacity: 0,
                 duration: 700,
                 easing: "linear"
@@ -292,21 +291,14 @@ $("#themetype").click(function(){
                         duration: 700,
                         easing: "linear"
                     });
-                    anime({
-                        targets: ".grain",
-                        opacity: opac,
-                        duration: 700,
-                        easing: "linear"
-                    });
                 }, 100);
             }, 800)
             
         }
         else{
             document.getElementById("themetype").innerHTML = "Light ";
-            var opac =   $(".grain").css("opacity");
             anime({
-                targets: ["#vidbg", ".grain"],
+                targets: "#vidbg",
                 opacity: 0,
                 duration: 700,
                 easing: "linear"
@@ -319,12 +311,6 @@ $("#themetype").click(function(){
                     anime({
                         targets: "#vidbg",
                         opacity: 0.45,
-                        duration: 700,
-                        easing: "linear"
-                    });
-                    anime({
-                        targets: ".grain",
-                        opacity: opac,
                         duration: 700,
                         easing: "linear"
                     });
