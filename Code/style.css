@@ -56,6 +56,12 @@
         margin: 0% auto;
         background-color: black;
         overflow: hidden !important;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -o-user-select: none;
+        user-select: none;
     }
 
     #welcome{
@@ -71,6 +77,12 @@
         background-color: #000000;
         opacity: 1;
         cursor: pointer;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -o-user-select: none;
+        user-select: none;
     }
 
     #wtext{
@@ -97,10 +109,11 @@
         overflow: hidden !important;
         height: 100dvh !important;
         width: 100dvw !important;
+        
     }
 
     #vidbg{
-        height: 240dvh !important;
+        height: 225dvh !important;
         width: auto;
     }
 
@@ -111,11 +124,35 @@
     #noisefilter{
         height: 100dvh !important;
         width: 100dvw !important;
-        mix-blend-mode: screen;
-        opacity: 0.175;
-        filter: contrast(150%);
+        opacity: 0.7;
+        object-fit: cover;
+        filter: contrast(90%);
         position: absolute;
         top: 0dvh;
+    }
+
+    #noisefilter1{
+        display: none;
+    }
+
+    #shootingstar{
+        position:absolute;
+        top: 10dvh;
+        left: -5dvw;
+        background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.526));
+        height: 1px;
+        width: 0dvw;
+        display: flex;
+        justify-content:end;
+        align-items: center;
+        transform-origin: 0% 0%;
+        rotate: 45deg;
+        opacity: 0;
+    }
+
+    #star{
+        font-size: 13px;
+        color: white;
     }
 
     #c1{
@@ -142,7 +179,6 @@
         font-size: 3.5dvh;
         color: white;
         margin-top: 4dvh;
-
     }
 
     #jobtitle{
@@ -389,7 +425,6 @@
 
 }
 
-
 @media only screen and (min-width: 551px) and (max-width: 767px) {
     body{
         display: flex;
@@ -398,6 +433,12 @@
         margin: 0% auto;
         background-color: black;
         overflow: hidden !important;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -o-user-select: none;
+        user-select: none;
     }
 
     #welcome{
@@ -413,6 +454,12 @@
         background-color: #000000;
         opacity: 1;
         cursor: pointer;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -o-user-select: none;
+        user-select: none;
     }
 
     #wtext{
@@ -450,13 +497,38 @@
         display: none !important;
     }
 
-    #noisefilter{
+    #noisefilter1{
         height: 100dvh !important;
         width: 100dvw !important;
-        mix-blend-mode: screen;
-        opacity: 0.225;
+        opacity: 0.6;
+        object-fit: cover;
+        filter: contrast(90%);
         position: absolute;
         top: 0dvh;
+    }
+
+    #noisefilter{
+        display: none;
+    }
+
+    #shootingstar{
+        position:absolute;
+        top: 10dvh;
+        left: -5dvw;
+        background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.526));
+        height: 1px;
+        width: 0dvw;
+        display: flex;
+        justify-content:end;
+        align-items: center;
+        transform-origin: 0% 0%;
+        rotate: 45deg;
+        opacity: 0;
+    }
+
+    #star{
+        font-size: 13px;
+        color: white;
     }
 
     #c1{
@@ -733,6 +805,12 @@
         margin: 0% auto;
         background-color: black;
         overflow: hidden !important;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -o-user-select: none;
+        user-select: none;
     }
 
     #welcome{
@@ -748,6 +826,12 @@
         background-color: #000000;
         opacity: 1;
         cursor: pointer;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -o-user-select: none;
+        user-select: none;
     }
 
     #wtext{
@@ -784,13 +868,37 @@
 
     video::-webkit-media-controls, video::-moz-media-controls, video::-o-media-controls, video::-ms-media-controls {   display: none !important; }
 
-    #noisefilter{
+    #noisefilter1{
         height: 100dvh !important;
         width: 100dvw !important;
-        mix-blend-mode: screen;
-        opacity: 0.325;
+        opacity: 1;
+        filter: contrast(90%);
         position: absolute;
         top: 0dvh;
+    }
+
+    #noisefilter{
+        display: none;
+    }
+
+    #shootingstar{
+        position:absolute;
+        top: 10dvh;
+        left: -5dvw;
+        background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.526));
+        height: 1px;
+        width: 0dvw;
+        display: flex;
+        justify-content:end;
+        align-items: center;
+        transform-origin: 0% 0%;
+        rotate: 45deg;
+        opacity: 0;
+    }
+
+    #star{
+        font-size: 13px;
+        color: white;
     }
 
     #c1{
@@ -1057,8 +1165,8 @@
     }
 
     #cprojectsdiv{
-    visibility: hidden; 
-    opacity: 0;
+        visibility: hidden; 
+        opacity: 0;
     }
 
 }

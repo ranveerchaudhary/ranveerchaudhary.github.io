@@ -8,6 +8,7 @@ function bgplay(){
         loop: true,
         easing: "linear"
     });
+    
 }
 
 var arc = 2;
@@ -20,21 +21,21 @@ $("#home").click(function(){
     anime({
         targets: ["#bl2", "#bl3", "#bl4"],
         opacity: 0,
-        duration: 250,
+        duration: 225,
         easing: "cubicBezier(.5, .05, .1, .3)"
     })
     setTimeout(function(){
         anime({
             targets: "#bl1",
             opacity: 1,
-            duration: 250,
+            duration: 225,
             easing: "cubicBezier(.5, .05, .1, .3)"
         })
-    },250);
+    },225);
     anime({
         targets: ["#contactinfodiv", "#projectsdiv", "#philosophydiv"],
         opacity: 0,
-        duration: 490,
+        duration: 400,
         easing: "cubicBezier(.5, .05, .1, .3)"
     });
     setTimeout(function(){
@@ -47,33 +48,33 @@ $("#home").click(function(){
             anime({
                 targets: "#intropara",
                 opacity: 1,
-                duration: 500,
+                duration: 425,
                 easing: "cubicBezier(.5, .05, .1, .3)"
             });
         }, 50);
-    }, 510);
+    }, 450);
 });
 
 $("#projects").click(function(){
     anime({
         targets: ["#bl1", "#bl3", "#bl4"],
         opacity: 0,
-        duration: 250,
+        duration: 225,
         easing: "cubicBezier(.5, .05, .1, .3)"
     })
     setTimeout(function(){
         anime({
             targets: "#bl2",
             opacity: 1,
-            duration: 250,
+            duration: 225,
             easing: "cubicBezier(.5, .05, .1, .3)"
         })
-    },250);
+    },225);
 
     anime({
         targets: ["#contactinfodiv", "#intropara", "#philosophydiv"],
         opacity: 0,
-        duration: 490,
+        duration: 400,
         easing: "cubicBezier(.5, .05, .1, .3)"
     });
     setTimeout(function(){
@@ -84,10 +85,10 @@ $("#projects").click(function(){
         anime({
             targets: "#projectsdiv",
             opacity: 1,
-            duration: 500,
+            duration: 425,
             easing: "cubicBezier(.5, .05, .1, .3)"
         });
-    }, 510);
+    }, 450);
 });
 
 $("#larrow").click(function(){
@@ -96,7 +97,7 @@ $("#larrow").click(function(){
         targets: "#projectsdiv",
         opacity: 0,
         easing: "cubicBezier(.5, .05, .1, .3)",
-        duration: 500
+        duration: 300
     });
 
     setTimeout(function(){
@@ -112,7 +113,7 @@ $("#larrow").click(function(){
             document.getElementById("projecttitle").innerHTML = "atom";
             document.getElementById("projecttitle").style.fontFamily = "monospace";
             document.getElementById("proimg").style.visibility = "visible";
-            document.getElementById("proimg").src = "Code/atomlogo.svg";
+            document.getElementById("proimg").src = "code/assets/atomlogo.svg";
             document.getElementById("proimg").style.filter = "brightness(0%) invert(100%)";
             document.getElementById("projectdisc").innerHTML = "Atom the weather app, is a weather app made using html, css & javascript. Atom boasts a responsive and modern UI whilst also having a feature to calculate the weather for the next day. The app uses the open-weather api to fetch weather details.";
         }
@@ -121,19 +122,19 @@ $("#larrow").click(function(){
             document.getElementById("projecttitle").innerHTML = "Mercurial";
             document.getElementById("projecttitle").style.fontFamily = "mrsd";
             document.getElementById("proimg").style.visibility = "visible";
-            document.getElementById("proimg").src = "Code/mercuriallogo.png";
+            document.getElementById("proimg").src = "code/assets/mercuriallogo.png";
             document.getElementById("projectdisc").innerHTML = "Mercurial is an intelligent music recommendation app that uses cutting-edge machine learning algorithms to suggest incredible tracks to the user, based on their vibe. <a href = 'https://github.com/ranveerchaudhary/Mercurial' target = '_blank'>Github ↗</a>";
         }
-    }, 500);
+    }, 400);
 
     setTimeout(function(){
         anime({
             targets: "#projectsdiv",
             opacity: 1,
             easing: "cubicBezier(.5, .05, .1, .3)",
-            duration: 460
+            duration: 450
         });
-    }, 960);
+    }, 500);
 
 });
 
@@ -143,7 +144,7 @@ $("#rarrow").click(function(){
         targets: "#projectsdiv",
         opacity: 0,
         easing: "cubicBezier(.5, .05, .1, .3)",
-        duration: 500
+        duration: 300
     });
 
     setTimeout(function(){
@@ -159,7 +160,7 @@ $("#rarrow").click(function(){
             document.getElementById("projecttitle").innerHTML = "atom";
             document.getElementById("projecttitle").style.fontFamily = "monospace";
             document.getElementById("proimg").style.visibility = "visible";
-            document.getElementById("proimg").src = "Code/atomlogo.svg";
+            document.getElementById("proimg").src = "code/assets/atomlogo.svg";
             document.getElementById("proimg").style.filter = "brightness(0%) invert(100%)";
             document.getElementById("projectdisc").innerHTML = "Atom the weather app, is a weather app made using HTML, CSS & Javascript. Atom boasts a responsive and modern UI whilst also having a feature to calculate the weather for the next day. The app uses the open-weather api to fetch weather details.";
         }
@@ -168,41 +169,41 @@ $("#rarrow").click(function(){
             document.getElementById("projecttitle").innerHTML = "Mercurial";
             document.getElementById("projecttitle").style.fontFamily = "mrsd";
             document.getElementById("proimg").style.visibility = "visible";
-            document.getElementById("proimg").src = "Code/mercuriallogo.png";
+            document.getElementById("proimg").src = "code/assets/mercuriallogo.png";
             document.getElementById("projectdisc").innerHTML = "Mercurial is an intelligent music recommendation app that uses cutting-edge machine learning algorithms to suggest incredible tracks to the user.  based on their vibe. <a href = 'https://github.com/ranveerchaudhary/Mercurial' target = '_blank'>Github ↗</a>";
         }
-    }, 500);
+    }, 400);
 
     setTimeout(function(){
         anime({
             targets: "#projectsdiv",
             opacity: 1,
             easing: "cubicBezier(.5, .05, .1, .3)",
-            duration: 460
+            duration: 450
         });
-    }, 960);
+    }, 500);
 });
 
 $("#philosophy").click(function(){
     anime({
         targets: ["#bl1", "#bl2", "#bl4"],
         opacity: 0,
-        duration: 250,
+        duration: 225,
         easing: "cubicBezier(.5, .05, .1, .3)"
     })
     setTimeout(function(){
         anime({
             targets: "#bl3",
             opacity: 1,
-            duration: 250,
+            duration: 225,
             easing: "cubicBezier(.5, .05, .1, .3)"
         })
-    },250);
+    },225);
 
     anime({
         targets: ["#contactinfodiv", "#projectsdiv", "#intropara"],
         opacity: 0,
-        duration: 490,
+        duration: 400,
         easing: "cubicBezier(.5, .05, .1, .3)"
     });
     setTimeout(function(){
@@ -214,10 +215,10 @@ $("#philosophy").click(function(){
         anime({
             targets: "#philosophydiv",
             opacity: 1,
-            duration: 500,
+            duration: 425,
             easing: "cubicBezier(.5, .05, .1, .3)"
         });
-    }, 510);
+    }, 450);
 });
 
 
@@ -225,22 +226,22 @@ $("#contact").click(function(){
     anime({
         targets: ["#bl1", "#bl2", "#bl3"],
         opacity: 0,
-        duration: 250,
+        duration: 225,
         easing: "cubicBezier(.5, .05, .1, .3)"
     })
     setTimeout(function(){
         anime({
             targets: "#bl4",
             opacity: 1,
-            duration: 250,
+            duration: 225,
             easing: "cubicBezier(.5, .05, .1, .3)"
         })
-    },250);
+    },225);
     
     anime({
         targets: ["#intropara", "#projectsdiv", "#philosophydiv"],
         opacity: 0,
-        duration: 490,
+        duration: 400,
         easing: "cubicBezier(.5, .05, .1, .3)"
     });
     setTimeout(function(){
@@ -252,17 +253,15 @@ $("#contact").click(function(){
             anime({
                 targets: "#contactinfodiv",
                 opacity: 1,
-                duration: 500,
+                duration: 425,
                 easing: "cubicBezier(.5, .05, .1, .3)"
             });
         }, 50);
-    }, 510);
+    }, 450);
 });
 
 
 $("#themetype").click(function(){
-
-    var flag = 0;
 
     anime({
         targets: "#themetype",
@@ -272,15 +271,15 @@ $("#themetype").click(function(){
     })
 
     setTimeout(function(){
-        $("#themebar").animate({rotate: '+=360deg'}, 500, "swing");
 
         if(document.getElementById("themetype").innerHTML == "Light "){
 
             document.getElementById("themetype").innerHTML = "Dark ";
+            var opac = $(".grain").css("opacity");
             anime({
-                targets: '#vidbg',
+                targets: ["#vidbg", ".grain"],
                 opacity: 0,
-                duration: 1250,
+                duration: 700,
                 easing: "linear"
             });
 
@@ -288,21 +287,28 @@ $("#themetype").click(function(){
                 document.getElementById("vidbg").style.filter = "";
                 setTimeout(function(){
                     anime({
-                        targets: '#vidbg',
+                        targets: "#vidbg",
                         opacity: 1,
-                        duration: 1250,
+                        duration: 700,
                         easing: "linear"
                     });
-                }, 200);
-            }, 1300)
+                    anime({
+                        targets: ".grain",
+                        opacity: opac,
+                        duration: 700,
+                        easing: "linear"
+                    });
+                }, 100);
+            }, 800)
             
         }
         else{
             document.getElementById("themetype").innerHTML = "Light ";
+            var opac =   $(".grain").css("opacity");
             anime({
-                targets: '#vidbg',
+                targets: ["#vidbg", ".grain"],
                 opacity: 0,
-                duration: 1250,
+                duration: 700,
                 easing: "linear"
             });
 
@@ -311,13 +317,19 @@ $("#themetype").click(function(){
 
                 setTimeout(function(){
                     anime({
-                        targets: '#vidbg',
+                        targets: "#vidbg",
                         opacity: 0.45,
-                        duration: 1250,
+                        duration: 700,
                         easing: "linear"
                     });
-                }, 200);
-            }, 1300);
+                    anime({
+                        targets: ".grain",
+                        opacity: opac,
+                        duration: 700,
+                        easing: "linear"
+                    });
+                }, 100);
+            }, 800);
 
 
         }   
@@ -337,17 +349,17 @@ function statupanim(){
     anime({
         targets: "#wtext",
         opacity: 0,
-        duration: 1500,
+        duration: 1600,
         easing: "cubicBezier(.5, .05, .1, .3)"
     });
     setTimeout(function(){
         anime({
             targets: "#wtext",
             opacity: 1,
-            duration: 1500,
+            duration: 1600,
             easing: "cubicBezier(.5, .05, .1, .3)"
         });
-    }, 1500); 
+    }, 1600); 
 }   
 
 statupanim();
@@ -363,12 +375,12 @@ $("#welcome").click(function(){
     anime({
         targets: ["#wtext", "#welcome"],
         opacity: 0,
-        duration: 1000,
+        duration: 1100,
         easing: "cubicBezier(.5, .05, .1, .3)"
     });
     bgplay();
     setTimeout(function(){
         document.getElementById("welcome").style.visibility = "hidden";
         document.getElementById("welcome").style.visibility = "hidden";
-    }, 1200);
+    }, 1300);
 });
