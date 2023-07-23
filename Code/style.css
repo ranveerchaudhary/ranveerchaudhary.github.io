@@ -457,6 +457,7 @@
         height: 100dvh !important;
         width: 100dvw !important;
         opacity: 0.5;
+        object-fit:cover;
         filter: contrast(90%);
         position: absolute;
         top: 0dvh;
@@ -791,6 +792,7 @@
         height: 100dvh !important;
         width: 100dvw !important;
         opacity: 0.5;
+        object-fit:cover;
         filter: contrast(90%);
         position: absolute;
         top: 0dvh;
