@@ -56,12 +56,6 @@
         margin: 0% auto;
         background-color: black;
         overflow: hidden !important;
-        -webkit-user-select: none;
-        -khtml-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        -o-user-select: none;
-        user-select: none;
     }
 
     #welcome{
@@ -77,12 +71,6 @@
         background-color: #000000;
         opacity: 1;
         cursor: pointer;
-        -webkit-user-select: none;
-        -khtml-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        -o-user-select: none;
-        user-select: none;
     }
 
     #wtext{
@@ -133,26 +121,6 @@
 
     #noisefilter1{
         display: none;
-    }
-
-    #shootingstar{
-        position:absolute;
-        top: 10dvh;
-        left: -5dvw;
-        background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.526));
-        height: 1px;
-        width: 0dvw;
-        display: flex;
-        justify-content:end;
-        align-items: center;
-        transform-origin: 0% 0%;
-        rotate: 45deg;
-        opacity: 0;
-    }
-
-    #star{
-        font-size: 13px;
-        color: white;
     }
 
     #c1{
