@@ -802,6 +802,7 @@
 
     #noisefilter{
         display: none;
+        visibility: hidden;
     }
 
     #c1{
