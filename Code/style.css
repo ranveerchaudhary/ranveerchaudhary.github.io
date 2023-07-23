@@ -48,15 +48,6 @@
     src: url("assets/LatoFont/Lato-Black.ttf");
 }
 
-html{
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -o-user-select: none;
-    user-select: none;
-}
-
 @media only screen and (min-width: 768px) {
     body{
         display: flex;
@@ -804,7 +795,8 @@ html{
     #noisefilter1{
         height: 100dvh !important;
         width: 100dvw !important;
-        opacity: 1;
+        opacity: 0.6;
+        object-fit: cover;
         filter: contrast(90%);
         position: absolute;
         top: 0dvh;
