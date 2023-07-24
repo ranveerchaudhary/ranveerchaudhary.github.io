@@ -132,9 +132,9 @@ $("#larrow").click(function(){
             targets: "#projectsdiv",
             opacity: 1,
             easing: "cubicBezier(.5, .05, .1, .3)",
-            duration: 450
+            duration: 500
         });
-    }, 500);
+    }, 550);
 
 });
 
@@ -179,9 +179,9 @@ $("#rarrow").click(function(){
             targets: "#projectsdiv",
             opacity: 1,
             easing: "cubicBezier(.5, .05, .1, .3)",
-            duration: 450
+            duration: 500
         });
-    }, 500);
+    }, 550);
 });
 
 $("#philosophy").click(function(){
