@@ -346,19 +346,28 @@ function statupanim(){
             easing: "cubicBezier(.5, .05, .1, .3)"
         });
     }, 1600); 
-}   
+}
 
-var sai = setInterval(function(){
-    statupanim();
-}, 3000);
+function sai_func() {
+    var sai = setInterval(function(){
+        statupanim();
+    }, 3000);
+}
 
 document.addEventListener("DOMContentLoaded", function() {
     var video = document.getElementById("vidbg");
+    var videoSource = document.getElementById("videoSource");
 
-    video.addEventListener("canplaythrough", function(){
+            
+    videoSource.addEventListener("load", function() {    
+        
         statupanim();
-        sai;
+        sai_func();
+        
     });
+
+    videoSource.src = "Code/assets/portfoliobgc.mp4";
+    
 });
 
 $("#welcome").click(function(){
