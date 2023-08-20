@@ -17,7 +17,7 @@
 
 ## ✨ Features
 
-- 🎨 Inspired From Contemporary Abstract Designs.
+- 🎨 Contemporary Abstract Design.
 - 💼 Project Showcase
 - 📱 Responsive
 - 🌐 SEO Optimized
