@@ -361,7 +361,6 @@ $(document).ready(function () {
 
     function checkVideoLoad() {
         if (video.readyState >= 3) { 
-            statupanim();
             sai_func();
         }
     }
