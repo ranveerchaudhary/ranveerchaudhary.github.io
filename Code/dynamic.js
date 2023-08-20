@@ -359,11 +359,10 @@ function sai_func() {
 $(document).ready(function () {
     var video = document.getElementById("vidbg");
 
-    // Function to check if the video is fully loaded
     function checkVideoLoad() {
-        if (video.readyState >= 3) { // 3 indicates the 'can play through' state
-            clearInterval(sai); // Clear the interval if the video is fully loaded
-            statupanim(); // Perform your animation
+        if (video.readyState >= 3) { 
+            statupanim();
+            sai_func();
         }
     }
 
@@ -373,7 +372,6 @@ $(document).ready(function () {
         checkVideoLoad();
 
         // If not fully loaded yet, set an interval to check again
-        sai_func();
     });
 
     // Check the video load status periodically
