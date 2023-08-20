@@ -348,26 +348,21 @@ function statupanim(){
     }, 1600); 
 }
 
-function sai_func() {
-    var sai = setInterval(function(){
+var sai;
+function sai_func(){
+    sai = setInterval(function(){
         statupanim();
     }, 3000);
 }
 
-document.addEventListener("DOMContentLoaded", function() {
+$(document).ready(function() {
     var video = document.getElementById("vidbg");
-    var videoSource = document.getElementById("videoSource");
 
-            
-    videoSource.addEventListener("load", function() {    
-        
+    // Add an event listener for the loadeddata event
+    $(video).on("loadeddata", function() {
         statupanim();
         sai_func();
-        
     });
-
-    videoSource.src = "Code/assets/portfoliobgc.mp4";
-    
 });
 
 $("#welcome").click(function(){
