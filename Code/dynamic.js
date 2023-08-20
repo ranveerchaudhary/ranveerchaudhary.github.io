@@ -355,7 +355,7 @@ var sai = setInterval(function(){
 document.addEventListener("DOMContentLoaded", function() {
     var video = document.getElementById("vidbg");
 
-    video.addEventListener("loadeddata", function() {
+    video.addEventListener("canplaythrough", function(){
         statupanim();
         sai;
     });
