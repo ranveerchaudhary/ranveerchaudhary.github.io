@@ -360,6 +360,7 @@ $(document).ready(function () {
     function checkVideoLoad() {
         if (video.readyState >= 3) { 
             document.getElementById("wtext").style.visibility = "visible";
+            document.body.style.pointerEvents = "all";
         }
     }
 
