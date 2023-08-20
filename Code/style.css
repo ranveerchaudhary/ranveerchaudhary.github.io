@@ -78,6 +78,7 @@
         font-family: nml;
         font-size: 3dvh;
         cursor: pointer;
+        visibility: hidden;
     }
 
     #main{
@@ -423,6 +424,7 @@
         font-family: nml;
         font-size: 3dvh;
         cursor: pointer;
+        visibility: hidden;
     }
 
     #main{
@@ -762,6 +764,7 @@
         font-family: nml;
         font-size: 3dvh;
         cursor: pointer;
+        visibility: hidden;
     }
 
     #main{
