@@ -352,10 +352,10 @@ var sai = setInterval(function(){
     statupanim();
 }, 3000);
 
-$(document).ready(function() {
-    var videobg = document.getElementById("vidbg");
-    
-    $(videobg).on("loadeddata", function() {
+document.addEventListener("DOMContentLoaded", function() {
+    var video = document.getElementById("vidbg");
+
+    video.addEventListener("loadeddata", function() {
         statupanim();
         sai;
     });
