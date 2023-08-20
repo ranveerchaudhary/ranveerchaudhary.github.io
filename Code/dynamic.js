@@ -331,7 +331,7 @@ $("#themetype").click(function(){
     }, 500);
 });
 
-function statupanim(){
+function startupanim(){
     anime({
         targets: "#wtext",
         opacity: 0,
@@ -348,20 +348,18 @@ function statupanim(){
     }, 1600); 
 }
 
-var sai;
+var sai = setInterval(function () {
+    startupanim();
+}, 3000);
 
-function sai_func() {
-    sai = setInterval(function () {
-        statupanim();
-    }, 3000);
-}
+startupanim();
 
 $(document).ready(function () {
     var video = document.getElementById("vidbg");
 
     function checkVideoLoad() {
         if (video.readyState >= 3) { 
-            sai_func();
+            document.getElementById("wtext").style.visibility = "visible";
         }
     }
 
