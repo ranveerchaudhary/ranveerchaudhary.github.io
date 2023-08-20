@@ -97,7 +97,7 @@ $("#larrow").click(function(){
         targets: "#projectsdiv",
         opacity: 0,
         easing: "cubicBezier(.5, .05, .1, .3)",
-        duration: 300
+        duration: 400
     });
 
     setTimeout(function(){
@@ -125,16 +125,16 @@ $("#larrow").click(function(){
             document.getElementById("proimg").src = "Code/mercuriallogo.png";
             document.getElementById("projectdisc").innerHTML = "Mercurial is an intelligent music recommendation app that uses cutting-edge machine learning algorithms to suggest incredible tracks to the user, based on their vibe. <a href = 'https://github.com/ranveerchaudhary/Mercurial' target = '_blank'>Github ↗</a>";
         }
-    }, 400);
+    }, 410);
 
     setTimeout(function(){
         anime({
             targets: "#projectsdiv",
             opacity: 1,
             easing: "cubicBezier(.5, .05, .1, .3)",
-            duration: 500
+            duration: 700
         });
-    }, 550);
+    }, 700);
 
 });
 
@@ -144,7 +144,7 @@ $("#rarrow").click(function(){
         targets: "#projectsdiv",
         opacity: 0,
         easing: "cubicBezier(.5, .05, .1, .3)",
-        duration: 300
+        duration: 400
     });
 
     setTimeout(function(){
@@ -172,16 +172,16 @@ $("#rarrow").click(function(){
             document.getElementById("proimg").src = "Code/mercuriallogo.png";
             document.getElementById("projectdisc").innerHTML = "Mercurial is an intelligent music recommendation app that uses cutting-edge machine learning algorithms to suggest incredible tracks to the user.  based on their vibe. <a href = 'https://github.com/ranveerchaudhary/Mercurial' target = '_blank'>Github ↗</a>";
         }
-    }, 400);
+    }, 410);
 
     setTimeout(function(){
         anime({
             targets: "#projectsdiv",
             opacity: 1,
             easing: "cubicBezier(.5, .05, .1, .3)",
-            duration: 500
+            duration: 700
         });
-    }, 550);
+    }, 700);
 });
 
 $("#philosophy").click(function(){
@@ -348,13 +348,18 @@ function statupanim(){
     }, 1600); 
 }   
 
-statupanim();
-
 var sai = setInterval(function(){
     statupanim();
 }, 3000);
 
-sai;
+$(document).ready(function() {
+    var videobg = document.getElementById("vidbg");
+    
+    $(videobg).on("loadeddata", function() {
+        statupanim();
+        sai;
+    });
+});
 
 $("#welcome").click(function(){
     clearInterval(sai);
