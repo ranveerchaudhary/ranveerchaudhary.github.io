@@ -364,16 +364,11 @@ $(document).ready(function () {
         }
     }
 
-    // Add an event listener for the loadeddata event
     $(video).on("loadeddata", function () {
-        // Check if the video is already fully loaded
+    
         checkVideoLoad();
-
-        // If not fully loaded yet, set an interval to check again
     });
-
-    // Check the video load status periodically
-    var checkInterval = setInterval(checkVideoLoad, 1000); // Check every second
+    var checkInterval = setInterval(checkVideoLoad, 1000);
 });
 
 
