@@ -97,7 +97,7 @@ $("#larrow").click(function(){
         targets: "#projectsdiv",
         opacity: 0,
         easing: "cubicBezier(.5, .05, .1, .3)",
-        duration: 400
+        duration: 350
     });
 
     setTimeout(function(){
@@ -125,14 +125,14 @@ $("#larrow").click(function(){
             document.getElementById("proimg").src = "Code/mercuriallogo.png";
             document.getElementById("projectdisc").innerHTML = "Mercurial is an intelligent music recommendation app that uses cutting-edge machine learning algorithms to suggest incredible tracks to the user, based on their vibe. <a href = 'https://github.com/ranveerchaudhary/Mercurial' target = '_blank'>Github ↗</a>";
         }
-    }, 410);
+    }, 360);
 
     setTimeout(function(){
         anime({
             targets: "#projectsdiv",
             opacity: 1,
             easing: "cubicBezier(.5, .05, .1, .3)",
-            duration: 700
+            duration: 750
         });
     }, 700);
 
@@ -144,7 +144,7 @@ $("#rarrow").click(function(){
         targets: "#projectsdiv",
         opacity: 0,
         easing: "cubicBezier(.5, .05, .1, .3)",
-        duration: 400
+        duration: 350
     });
 
     setTimeout(function(){
@@ -172,14 +172,14 @@ $("#rarrow").click(function(){
             document.getElementById("proimg").src = "Code/mercuriallogo.png";
             document.getElementById("projectdisc").innerHTML = "Mercurial is an intelligent music recommendation app that uses cutting-edge machine learning algorithms to suggest incredible tracks to the user.  based on their vibe. <a href = 'https://github.com/ranveerchaudhary/Mercurial' target = '_blank'>Github ↗</a>";
         }
-    }, 410);
+    }, 360);
 
     setTimeout(function(){
         anime({
             targets: "#projectsdiv",
             opacity: 1,
             easing: "cubicBezier(.5, .05, .1, .3)",
-            duration: 700
+            duration: 750
         });
     }, 700);
 });
@@ -349,21 +349,37 @@ function statupanim(){
 }
 
 var sai;
-function sai_func(){
-    sai = setInterval(function(){
+
+function sai_func() {
+    sai = setInterval(function () {
         statupanim();
     }, 3000);
 }
 
-$(document).ready(function() {
+$(document).ready(function () {
     var video = document.getElementById("vidbg");
 
+    // Function to check if the video is fully loaded
+    function checkVideoLoad() {
+        if (video.readyState >= 3) { // 3 indicates the 'can play through' state
+            clearInterval(sai); // Clear the interval if the video is fully loaded
+            statupanim(); // Perform your animation
+        }
+    }
+
     // Add an event listener for the loadeddata event
-    $(video).on("loadeddata", function() {
-        statupanim();
+    $(video).on("loadeddata", function () {
+        // Check if the video is already fully loaded
+        checkVideoLoad();
+
+        // If not fully loaded yet, set an interval to check again
         sai_func();
     });
+
+    // Check the video load status periodically
+    var checkInterval = setInterval(checkVideoLoad, 1000); // Check every second
 });
+
 
 $("#welcome").click(function(){
     clearInterval(sai);
