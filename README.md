@@ -8,10 +8,10 @@
 
 - 📄 **index.html**: The main HTML file.
 - 📁 **Code**
-  - 📄 **style.css**: The CSS styling for the website.
-  - 📄 **dynamic.js**: JavaScript for interactivity.
+  - 📄 **style.css**: CSS for styling.
+  - 📄 **dynamic.js**: JavaScript and JQuery.
 - 📁 **assets**
-  - 📷 **images**: A collection of images and assets.
+  - 📷 **images**: Images and assets.
 
 <br>
 
