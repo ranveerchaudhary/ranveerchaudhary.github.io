@@ -134,7 +134,7 @@ $("#larrow").click(function(){
             easing: "cubicBezier(.5, .05, .1, .3)",
             duration: 750
         });
-    }, 700);
+    }, 720);
 
 });
 
@@ -181,7 +181,7 @@ $("#rarrow").click(function(){
             easing: "cubicBezier(.5, .05, .1, .3)",
             duration: 750
         });
-    }, 700);
+    }, 720);
 });
 
 $("#philosophy").click(function(){
