@@ -22,7 +22,7 @@
 - 📱 Responsive
 - 🌐 SEO Optimized
 - 💌 Contact Info
-- 🧰 Customizable
+- ⚙️ Intuitive To Use
 
 <br>
 
