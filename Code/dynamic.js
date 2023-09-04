@@ -162,7 +162,7 @@ $("#rarrow").click(function(){
             document.getElementById("proimg").style.visibility = "visible";
             document.getElementById("proimg").src = "Code/atomlogo.svg";
             document.getElementById("proimg").style.filter = "brightness(0%) invert(100%)";
-            document.getElementById("projectdisc").innerHTML = "Atom the weather app, is a weather app made using HTML, CSS & Javascript. Atom boasts a responsive and modern UI whilst also having a feature to calculate the weather for the next day. The app uses the open-weather api to fetch weather details.";
+            document.getElementById("projectdisc").innerHTML = "Atom the weather app, is a weather app made using HTML, CSS & Javascript. Atom boasts a responsive and modern UI whilst also having a feature to calculate the weather for the next day. The app uses the open-weather api to fetch weather details. <a href = 'https://github.com/ranveerchaudhary/Atom' target = '_blank'>Github ↗</a>";
         }
         else if(arc == 1){
             arc = 2;
