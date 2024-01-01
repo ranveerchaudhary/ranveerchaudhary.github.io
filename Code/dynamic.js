@@ -11,11 +11,7 @@ function bgplay(){
     
 }
 
-var arc = 2;
-
-function disppro(){
-
-}
+var arc = 1;
 
 $("#home").click(function(){
     anime({
