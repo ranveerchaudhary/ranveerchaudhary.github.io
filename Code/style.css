@@ -57,6 +57,7 @@
         background-color: black;
         overflow: hidden !important;
         pointer-events: none;
+        user-select: none;
     }
 
     #welcome{
@@ -309,7 +310,7 @@
     }
 
     #projecttitle{
-        font-family: mrsd;
+        font-family: lato;
         font-size: 3.25dvh;
         font-weight: 580;
         color: white;
@@ -321,6 +322,7 @@
         height: auto;
         filter:invert(100%);
         margin-left: 1dvw;
+        visibility: hidden;
     }
 
     #projectmain{
@@ -404,6 +406,7 @@
         background-color: black;
         overflow: hidden !important;
         pointer-events: none;
+        user-select: none;
     }
 
     #welcome{
@@ -654,7 +657,7 @@
     }
 
     #projecttitle{
-        font-family: mrsd;
+        font-family: lato;
         font-size: 3.25dvh;
         font-weight: 580;
         color: white;
@@ -666,6 +669,7 @@
         height: auto;
         filter:invert(100%);
         margin-left: 1dvw;
+        visibility: hidden;
     }
 
     #projectmain{
@@ -745,6 +749,7 @@
         background-color: black;
         overflow: hidden !important;
         pointer-events: none;
+        user-select: none;
     }
 
     #welcome{
@@ -995,7 +1000,7 @@
     }
 
     #projecttitle{
-        font-family: mrsd;
+        font-family: lato;
         font-size: 3.25dvh;
         font-weight: 580;
         color: white;
@@ -1007,6 +1012,7 @@
         height: auto;
         filter:invert(100%);
         margin-left: 1dvw;
+        visibility: hidden;
     }
 
     #projectmain{
