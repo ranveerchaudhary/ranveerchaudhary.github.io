@@ -106,7 +106,7 @@ $("#larrow").click(function(){
             document.getElementById("projecttitle").innerHTML = "cipher";
             document.getElementById("projecttitle").style.fontFamily = "lato";
             document.getElementById("proimg").style.visibility = "hidden";
-            document.getElementById("projectdisc").innerHTML = "Cipher is an innovative approach towards password generators. Using state of the art NLP algorithms and military grade encryption to store passwords, all this and more while maintaining a modern UI incorporating neomorphism design style. <a href = 'https://github.com/ranveerchaudhary/cipher' target = '_blank'>Github ↗</a>";
+            document.getElementById("projectdisc").innerHTML = "Cipher is a cutting-edge password generator and vault that employs quantum mechanics to synthesize exceptionally secure passwords. It utilizes neural networks for password analysis and military-grade encryption for secure password storage — all within a modern UI that incorporates neomorphism. <a href = 'https://github.com/ranveerchaudhary/cipher' target = '_blank'>Github ↗</a>";
         }
         else if(arc == 1){
             arc = 3;
@@ -153,7 +153,7 @@ $("#rarrow").click(function(){
             document.getElementById("projecttitle").innerHTML = "cipher";
             document.getElementById("projecttitle").style.fontFamily = "lato";
             document.getElementById("proimg").style.visibility = "hidden";
-            document.getElementById("projectdisc").innerHTML = "Cipher is an innovative approach towards password generators, using state of the art NLP algorithms and military grade encryption to store passwords, all this while maintaining a modern UI incorporating neomorphism design style. <a href = 'https://github.com/ranveerchaudhary/cipher' target = '_blank'>Github ↗</a>";
+            document.getElementById("projectdisc").innerHTML = "Cipher is a cutting-edge password generator and vault that employs quantum mechanics to synthesize exceptionally secure passwords. It utilizes neural networks for password analysis and military-grade encryption for secure password storage — all within a modern UI that incorporates neomorphism. <a href = 'https://github.com/ranveerchaudhary/cipher' target = '_blank'>Github ↗</a>";
         }
         else if(arc == 2){
             arc = 3;
