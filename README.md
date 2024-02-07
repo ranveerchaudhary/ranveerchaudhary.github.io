@@ -57,5 +57,5 @@ I welcome contributions! Feel free to open issues or submit pull requests if you
 
 ## 📧 Contact
 
-Have questions or just want to connect? You can reach out to me at [Email](mailto:ranveerchaudhary1000@gmail.com).
+Have questions or just want to connect? You can reach out to me at [Email](mailto:ranveerchaudhary1000+github@gmail.com).
 
