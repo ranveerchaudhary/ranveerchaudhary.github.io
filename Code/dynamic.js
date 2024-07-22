@@ -1,14 +1,18 @@
 var vid = document.getElementById("vidbg");
+
+$(document).on('keydown', function(event) {
+    if (event.key === 'Enter') {
+        $("#welcome").click();
+    }
+});
+
 function bgplay(){
     vid.play();
-    anime({
-        targets: '#vidbg',
-        rotateZ: 360,
-        duration: 60000,
-        loop: true,
-        easing: "linear"
-    });
-    
+    if (window.innerWidth >= 800) {
+        vid.style.transform = 'scaleX(-1)';
+    } else {
+        vid.style.transform = 'scaleX(1)';
+    }
 }
 
 var arc = 1;
